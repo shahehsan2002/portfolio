@@ -3,6 +3,7 @@ import Hero from "./sections/Hero"
 import Footer from "./sections/Footer"
 import Contact from "./sections/Contact"
 import About from "./sections/About"
+import Clients from "./sections/Clients"
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Navbar/>
       <Hero/>
       <About/>
+      <Clients/>
       <Contact/>
       <Footer/>
     </main>
