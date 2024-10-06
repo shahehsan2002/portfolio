@@ -30,6 +30,7 @@ const Navbar = () => {
           >
             Ehsan
           </a>
+          {/* <img src="./assets/ehsan.png" alt="" className="w-16 h-16"/> */}
           <button
             onClick={toggleMenu}
             className="text-neutral-400 hover:text-white focus:outline-none sm:hidden flex"
