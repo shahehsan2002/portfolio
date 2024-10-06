@@ -4,6 +4,7 @@ import Footer from "./sections/Footer"
 import Contact from "./sections/Contact"
 import About from "./sections/About"
 import Clients from "./sections/Clients"
+import Projects from "./sections/Projects"
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Hero/>
       <About/>
       <Clients/>
+      <Projects/>
       <Contact/>
       <Footer/>
     </main>
