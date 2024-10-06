@@ -1,6 +1,8 @@
+
 import Globe from "react-globe.gl";
 import Button from "../components/Button";
 import { useState } from "react";
+
 const About = () => {
 
   const [hasCopied, setHasCopied] = useState();
@@ -24,11 +26,9 @@ const About = () => {
               className="w-full sm:h-[276px] h-fit object-contain"
             />
             <div className="mt-4">
-              <p className="grid-headtext text-xl font-bold">Hi, I'm Ehsan</p>
+              <p className="grid-headtext text-xl font-bold">Hey, I'm Ehsan!</p>
               <p className="grid-subtext text-gray-600 mt-2">
-                With 1 year of experience, I have honed my skills in frontend
-                and backend development, with a focus on building animated 3D
-                websites.
+                With over a year of experience, I combine creativity and code to craft stunning digital experiences. My journey in web development revolves around bringing imagination to life in the form of dynamic 3D websites.
               </p>
             </div>
           </div>
@@ -43,14 +43,14 @@ const About = () => {
               className="w-full sm:h-[276px] h-fit object-contain"
             />
             <div>
-              <p className="grid-headtext">Tech Stack</p>
+              <p className="grid-headtext">What I Do Best</p>
               <p className="grid-subtext">
-                I specialize in JavaScript/Typecript with a focus on React and
-                Next.js ecosystem
+                I specialize in building scalable, efficient applications with JavaScript and TypeScript, leveraging the powerful ecosystems of React and Next.js to deliver interactive and responsive interfaces.
               </p>
             </div>
           </div>
         </div>
+
         {/* Third Grid Item */}
         <div className="col-span-1 xl:row-span-4">
           <div className="grid-container">
@@ -64,21 +64,14 @@ const About = () => {
                 showGraticules
                 globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
                 bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
-                // labelsData={[{
-                //   lat:40,
-                //   lng: -100,
-                //   text: "I'm here !",
-                //   color:'white',
-                //   size:20,
-                // }]}
               />
             </div>
             <div>
               <p className="grid-headtext">
-                I work remotely across most timezones
+                Bridging Worlds with Code
               </p>
               <p className="grid-subtext">
-                I'm based in Bangladesh, with remote work available.
+                While I’m based in Bangladesh, my work knows no borders. I’ve collaborated with clients across the globe, delivering top-notch remote services, no matter the time zone.
               </p>
               <Button
                 name="Get in touch"
@@ -88,6 +81,7 @@ const About = () => {
             </div>
           </div>
         </div>
+
         {/* Fourth Grid Item */}
         <div className="xl:col-span-2 xl:row-span-3">
           <div className="grid-container">
@@ -97,14 +91,14 @@ const About = () => {
               className="w-full sm:h-[266px] h-fit object-contain"
             />
             <div>
-              <p className="grid-headtext">My passion is coding</p>
+              <p className="grid-headtext">Fuelled by a Passion for Problem Solving</p>
               <p className="grid-subtext">
-                I love solving problems and building things code. Coding isn't
-                just my profession - it is mt passion
+                Coding is not just a skill—it’s my playground. I thrive on solving problems, whether they’re simple or complex, turning challenges into innovative solutions that drive results.
               </p>
             </div>
           </div>
         </div>
+
         {/* Fifth Grid Item */}
         <div className="xl:col-span-1 xl:row-span-2">
           <div className="grid-container">
@@ -113,15 +107,14 @@ const About = () => {
               alt="grid-4"
               className="w-full md:h-[126px] sm:h-[276px] h-fit object-cover sm:object-top "
             />
-            <div className="space-y-2" >
-              <p className="grid-headtext text-center" >Contact me</p>
-              <div className="copy-container" onClick={handleCopy} >
+            <div className="space-y-2">
+              <p className="grid-headtext text-center">Let’s Collaborate</p>
+              <div className="copy-container" onClick={handleCopy}>
                 <img src={hasCopied ? "assets/tick.svg" : "assets/copy.svg"} alt="copy" />
-                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white" >
-                shahehsan2002@gmail.com
+                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">
+                  shahehsan2002@gmail.com
                 </p>
               </div>
-
             </div>
           </div>
         </div>
